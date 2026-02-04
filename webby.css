@@ -1,0 +1,129 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 30px 0 30px;
+
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.heading {
+    width: 320px;
+    font-size: 18px;
+    margin-bottom: 50;
+    line-height: 50px;
+    padding: 20px 30px 0 30px;
+}
+
+.heading h1 {
+    margin-bottom: 0;
+}
+
+.heading p {
+    width: 350px;
+    margin-top: 0;
+    line-height: -50px;
+}
+
+.heading img {
+    border-radius: 8px;
+    opacity: 0.8;
+
+
+}
+
+.heading button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(250, 250, 250);
+}
+
+.top {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.topd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.titd {
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.sadm {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.crd {
+    background-color: rgb(241, 242, 243);
+    box-shadow: 0 2px 4px 6px rgba(153, 153, 153, 0.877);
+    border-radius: 4px;
+    height: 40vh;
+}
+
+.crd p {
+    padding-top: 50px;
+
+}
+
+.crd img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.btnc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.btnc button {
+    border: none;
+    color: white;
+    background-color: rgb(96, 159, 252);
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+
+}
+
+</style>
